@@ -1,8 +1,22 @@
-# React + Vite
+Movie Trailer Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based web application that allows users to search for and watch movie trailers. The app fetches movie trailer URLs using the movie-trailer package and integrates a user-friendly video player powered by ReactPlayer.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search for any movie by title to find its trailer.
+- Watch trailers directly within the application.
+- Error handling for cases where a trailer is not found.
+- Intuitive and responsive design with a search bar and clear navigation.
+
+Technologies Used
+
+- React: For building the user interface.
+- ReactPlayer: For playing video trailers.
+- movie-trailer: For fetching movie trailer URLs.
+
+Installation and Setup
+
+- git clone https://github.com/Penelope32/Movie-Trailer-Finder.git
+  cd movie-trailer-finder
+- npm run dev
